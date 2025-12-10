@@ -24,3 +24,6 @@ if st.button("Pode enviar"):
 
 #Site do Jogo
 #https://jogo-de-adivinha-cmkjyqinpozzejwkvx4ff8.streamlit.app/
+
+#Site de onde cria os apps
+#https://share.streamlit.io/
