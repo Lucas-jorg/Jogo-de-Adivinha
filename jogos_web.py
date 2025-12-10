@@ -17,3 +17,8 @@ if st.button("Pode enviar"):
         st.info("Bom chute! Mas, o número certo é menor.")
     else:
         st.warning("Putsss, quase! Mas, o número certo é maior.")
+
+
+
+#Site do Jogo
+#https://jogo-de-adivinha-cmkjyqinpozzejwkvx4ff8.streamlit.app/
