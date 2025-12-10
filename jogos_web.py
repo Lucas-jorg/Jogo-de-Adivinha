@@ -1,5 +1,6 @@
 import streamlit as st
 import random
+import time
 
 st.title("🎮 Jogo de Adivinhação") # Para rodar no terminal digite: "streamlit run jogos.na.web.py" dentro da pasta
 st.subheader("SE ACERTAR GANHA UM PIX DE R$ 49,99")  # texto menor logo
@@ -8,7 +9,8 @@ numero_secreto = random.randint(1, 50)
 
 # Entrada do usuário
 palpite = st.number_input("Vamos ver se você tem sorte mesmo, escolhe ai um número de 1 a 50:")
-
+print('Deixa eu ver se você acertou ...)
+time.sleep(5)
 # Botão para verificar
 if st.button("Pode enviar"):
     if palpite == 20.25:
