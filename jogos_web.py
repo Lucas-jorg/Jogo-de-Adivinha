@@ -9,7 +9,7 @@ numero_secreto = random.randint(1, 50)
 
 # Entrada do usuário
 palpite = st.number_input("Vamos ver se você tem sorte mesmo, escolhe ai um número de 1 a 50:")
-print('Deixa eu ver se você acertou ...)
+print("Deixa eu ver se você acertou ...")
 time.sleep(5)
 # Botão para verificar
 if st.button("Pode enviar"):
