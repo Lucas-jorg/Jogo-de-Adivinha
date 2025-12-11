@@ -13,9 +13,9 @@ print("Deixa eu ver se você acertou ...")
 time.sleep(5)
 # Botão para verificar
 if st.button("Pode enviar"):
-    if palpite == 20.25:
+    if palpite == 13.18:
         st.success("Ótima resposta, você acertou!!")
-    elif palpite > 20.25:
+    elif palpite > 13.18:
         st.info("Bom chute! Mas, o número certo é menor.")
     else:
         st.warning("Putsss, quase! Mas, o número certo é maior.")
